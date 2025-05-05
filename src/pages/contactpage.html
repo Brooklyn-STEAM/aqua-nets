@@ -9,39 +9,41 @@
 </head>
 
 <body>
-    <div class="flex justify-center"> 
-        <img src="/src/assets/Aquanets_Logo.png" alt="Aqua Nets Logo" class="max-w-2xs text-align-center"> 
-    </div>
 
     <include src="components/nav_bar.html"></include>
 
 
-    <form action="https://form-to-email.steam-center.workers.dev" method="post">
+    <form action="https://form-to-email.steam-center.workers.dev/" method="post">
         <input hidden name="send-to" value="jeubanks@brooklynsteamcenter.org">
         <br>
-        <script>
-            
-        </script>
-
-        <label>First Name <span class="icon-[icon-park--edit-name]"></span></label>
+        
+        <span class="icon-[icon-park--edit-name]"></span>
+        <label>First Name </label>
 
         <br>
 
         <input type="text" required>
         <br>
-
-        <label>Last Name</label>
+         <label>Last Name</label>
         <br>
         <input type="text" required>
         <br>
+        
+        <span class="icon-[fontisto--email]"></span>
         <label>Email</label>
         <br>
         <input type="text" required>
         <br>
+
+       
+        <span class="icon-[marketeq--phone]"></span>
         <label>Social Contact</label>
         <br>
         <input type="text" required>
         <br>
+       
+       
+        
         <p>Perferred Contact:</p>
         <input type="radio" name="Contact" value="Email">
         <label>Email</label>
@@ -49,6 +51,8 @@
         <input type="radio" name="Contact" value="Email">
         <label>Social Contact</label>
         <br>
+      
+        <span class="icon-[pepicons-pop--text-bubble]"></span>
         <label>Comments</label>
         <br>
         <textarea name="Comments" id="" required></textarea>
@@ -56,7 +60,6 @@
         <input type="submit">
         <input type="reset">
     </form>
-
 </body>
 
 </html>
