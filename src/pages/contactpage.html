@@ -7,64 +7,52 @@
     <link rel="stylesheet" href="/src/styles/main.css">
     <title>Contact Page</title>
 </head>
-
-<body>
-
+<body class="bg-gray-100 flex flex-col items-center p-6 min-h-screen">
+    <!-- Logo Section -->
+    <div class="flex justify-center">
+        <img src="/src/assets/Aquanets_Logo.png" alt="Aqua Nets Logo" class="w-40">
+    </div>
+    <!-- Navigation Bar -->
     <include src="components/nav_bar.html"></include>
-
-
-    <form action="https://form-to-email.steam-center.workers.dev/" method="post">
+<br>
+    <!-- Contact Form -->
+    <form action="https://form-to-email.steam-center.workers.dev" method="post"  
+        class="bg-white p-6 rounded-lg shadow-lg w-full max-w-lg mx-auto transition-all duration-300 hover:shadow-xl">
+        
         <input hidden name="send-to" value="jeubanks@brooklynsteamcenter.org">
-        <br>
-        
-        <span class="icon-[icon-park--edit-name]"></span>
-        <label>First Name </label>
 
-        <br>
+        <label class="block font-medium mb-2">First Name</label>
+        <input type="text" required class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4">
 
-        <input type="text" required>
-        <br>
-         <label>Last Name</label>
-        <br>
-        <input type="text" required>
-        <br>
-        
-        <span class="icon-[fontisto--email]"></span>
-        <label>Email</label>
-        <br>
-        <input type="text" required>
-        <br>
+        <label class="block font-medium mb-2">Last Name</label>
+        <input type="text" required class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4">
 
-       
-        <span class="icon-[marketeq--phone]"></span>
-        <label>Social Contact</label>
-        <br>
-        <input type="text" required>
-        <br>
-      
-        <span class="icon-[mdi--git-issue]"></span>
-        <label>Whats The Problem</label>
-       <br>
-      <input type="text" required>
-       <br>
-      
-     
-       <p>Perferred Contact:</p>
-        <input type="radio" name="Contact" value="Email">
-        <label>Email</label>
-        <br>
-        <input type="radio" name="Contact" value="Email">
-        <label>Social Contact</label>
-        <br>
-      
-        <span class="icon-[pepicons-pop--text-bubble]"></span>
-        <label>Comments</label>
-        <br>
-        <textarea name="Comments" id="" required></textarea>
-        <br>
-        <input type="submit">
-        <input type="reset">
+        <label class="block font-medium mb-2">Email</label>
+        <input type="email" required class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4">
+
+        <label class="block font-medium mb-2">Phone Number</label>
+        <input type="text" required class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4">
+
+        <p class="font-medium">Preferred Contact:</p>
+        <div class="flex gap-4 mb-4">
+            <label class="flex items-center gap-2">
+                <input type="radio" name="Contact" value="Email" class="accent-blue-500"> Email
+            </label>
+            <label class="flex items-center gap-2">
+                <input type="radio" name="Contact" value="Phone Number" class="accent-blue-500"> Phone Number
+            </label>
+        </div>
+
+        <label class="block font-medium mb-2">Comments</label>
+        <textarea name="Comments" required class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4"></textarea>
+
+        <div class="flex gap-4">
+            <input type="submit" value="Submit"  
+                class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 cursor-pointer transition-all ease-in-out duration-300">
+            <input type="reset" value="Reset"  
+                class="bg-gray-300 px-4 py-2 rounded-md hover:bg-gray-400 cursor-pointer transition-all ease-in-out duration-300">
+        </div>
     </form>
+    <include src="components/footer.html"></include>
 </body>
-
 </html>
