@@ -1,17 +1,23 @@
 @import "tailwindcss";
 
-nav {
-    background: url('/src/assets/giphy-gif.gif') no-repeat center center fixed;
-    background-size:contain;
-    background-size:;
-    
-}
-
 @media screen and (max-width: 480px) {
 
-    nav{
+    nav {
         background: url('/src/assets/giphy-gif.gif') center center fixed;
         background-size: contain;
     }
-    
+}
+body {
+    background-color: #cdd6db;
+}
+
+
+@font-face {
+    font-family: 'Ocean Twelve';
+    src: url('/src/assets/fonts/OceanTwelve.ttf') format('truetype'); 
+}
+
+
+.ocean-twelve {
+    font-family: 'Ocean Twelve', sans-serif;
 }
