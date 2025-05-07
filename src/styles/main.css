@@ -1,6 +1,17 @@
 @import "tailwindcss";
 
 nav {
-    background: url('') no-repeat center center fixed;
-    background-size: cover;
+    background: url('/src/assets/giphy-gif.gif') no-repeat center center fixed;
+    background-size:contain;
+    background-size:;
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    nav{
+        background: url('/src/assets/giphy-gif.gif') center center fixed;
+        background-size: contain;
+    }
+    
 }
