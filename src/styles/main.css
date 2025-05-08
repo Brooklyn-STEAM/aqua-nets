@@ -1,12 +1,19 @@
 @import "tailwindcss";
 
-@media screen and (max-width: 480px) {
-
-    nav {
-        background: url('/src/assets/giphy-gif.gif') center center fixed;
-        background-size: contain;
-    }
+/*nav {
+    background: url('/src/assets/giphy-gif.gif');
+    background-repeat: repeat-x;
+    background-attachment: fixed; 
+    height:100%;
+    width:100%;
+    background-size: cover;
+    background-position: center;
 }
+*/
+
+
+
+
 body {
     background-color: #cdd6db;
 }
