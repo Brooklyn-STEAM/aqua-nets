@@ -1,11 +1,13 @@
 @import "tailwindcss";
 
-@media screen and (max-width: 480px) {
-
-    nav {
-        background: url('/src/assets/giphy-gif.gif') center center fixed;
-        background-size: contain;
-    }
+nav {
+    background: url('/src/assets/giphy-gif.gif');
+    background-repeat: repeat-x;
+    /*background-attachment: fixed; */
+    height:100%;
+    width:100%;
+    background-size: cover;
+    background-position: center;
 }
 
 body {
@@ -73,6 +75,6 @@ font-family: 'Oval Outlooks';
     src: url('/src/assets/fonts/Waterway.ttf') format('truetype');
 }
 
-h2 {
+.waterway {
     font-family: 'Waterway';
 }
