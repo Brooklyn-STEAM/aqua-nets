@@ -1,17 +1,78 @@
 @import "tailwindcss";
 
-nav {
-    background: url('/src/assets/giphy-gif.gif') no-repeat center center fixed;
-    background-size:contain;
-    background-size:;
-    
-}
-
 @media screen and (max-width: 480px) {
 
-    nav{
+    nav {
         background: url('/src/assets/giphy-gif.gif') center center fixed;
         background-size: contain;
     }
-    
+}
+
+body {
+    background-color: #cdd6db;
+}
+
+
+@font-face {
+    font-family: 'Ocean Twelve';
+    src: url('/src/assets/fonts/OceanTwelve.ttf') format('truetype'); 
+}
+
+
+.ocean-twelve {
+    font-family: 'Ocean Twelve', sans-serif;
+}
+
+@font-face {
+    font-family: 'Break Water';
+    src: url('/src/assets/fonts/Breakwater.ttf') format('truetype');
+}
+
+.break-water {
+    font-family: 'Break Water';
+}
+
+@font-face {
+    font-family: 'Oval Outlooks';
+    src: url('/src/assets/fonts/OvalOutlooks-Regular.otf') format('opentype');
+}
+
+.oval-outlook {
+font-family: 'Oval Outlooks';
+}
+
+@font-face {
+    font-family: 'Water Flow';
+    src: url('/src/assets/fonts/Water Flow.otf') format('opentype');
+}
+
+.water-flow {
+    font-family: 'Water Flow';
+}
+
+@font-face {
+    font-family: 'Water';
+    src: url('/src/assets/fonts/Water.otf') format('opentype');
+}
+
+.water {
+    font-family: 'Water';
+}
+
+@font-face {
+    font-family: 'Waterlily';
+    src: url('/src/assets/fonts/Waterlily Script.ttf') format('truetype')
+}
+
+.waterlily {
+    font-family: 'Waterlily';
+}
+
+@font-face {
+    font-family:'Waterway';
+    src: url('/src/assets/fonts/Waterway.ttf') format('truetype');
+}
+
+h2 {
+    font-family: 'Waterway';
 }
