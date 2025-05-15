@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
 nav {
-    background: url('/src/assets/giphy-gif.gif');
+   background-color: #8eb8ce;
     background-repeat: repeat-x;
     /*background-attachment: fixed; */
-    height:100%;
+    height:50%;
     width:100%;
     background-size: cover;
     background-position: center;
+
 }
 
 body {
