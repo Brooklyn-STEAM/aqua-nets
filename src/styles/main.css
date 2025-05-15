@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@iconify/tailwind4";
 
 nav {
     background: url('/src/assets/giphy-gif.gif');
