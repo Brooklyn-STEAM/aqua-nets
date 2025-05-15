@@ -118,3 +118,73 @@ font-family: 'Oval Outlooks';
 .waterway {
     font-family: 'Waterway';
 }
+
+@theme{
+    --color-outer-space-50: #f3f8f8;
+    --color-outer-space-100: #e0ebed;
+    --color-outer-space-200: #c5d8dc;
+    --color-outer-space-300: #9dbbc3;
+    --color-outer-space-400: #6d97a3;
+    --color-outer-space-500: #527b88;
+    --color-outer-space-600: #476773;
+    --color-outer-space-700: #3e5660;
+    --color-outer-space-800: #384a52;
+    --color-outer-space-900: #2f3b42;
+    --color-outer-space-950: #1e272e;
+}
+
+@theme{
+    --color-mandys-pink-50: #fdf5f3;
+    --color-mandys-pink-100: #fbeae5;
+    --color-mandys-pink-200: #f8d9d0;
+    --color-mandys-pink-300: #f3c1b2;
+    --color-mandys-pink-400: #e99880;
+    --color-mandys-pink-500: #dc7657;
+    --color-mandys-pink-600: #c85b3a;
+    --color-mandys-pink-700: #a8492d;
+    --color-mandys-pink-800: #8b4029;
+    --color-mandys-pink-900: #743a28;
+    --color-mandys-pink-950: #3f1b10;
+}
+
+@theme{
+    --color-shadow-green-50: #f0f9f6;
+    --color-shadow-green-100: #dcefe6;
+    --color-shadow-green-200: #bbdfd1;
+    --color-shadow-green-300: #a4d3c4;
+    --color-shadow-green-400: #5daa94;
+    --color-shadow-green-500: #3b8e78;
+    --color-shadow-green-600: #2a7161;
+    --color-shadow-green-700: #225a4e;
+    --color-shadow-green-800: #1d483f;
+    --color-shadow-green-900: #183c35;
+    --color-shadow-green-950: #0d211e;
+}
+
+@theme{
+    --color-limed-spruce-50: #f1f8fa;
+    --color-limed-spruce-100: #dcedf1;
+    --color-limed-spruce-200: #bddde4;
+    --color-limed-spruce-300: #90c4d0;
+    --color-limed-spruce-400: #5ba2b5;
+    --color-limed-spruce-500: #3f869b;
+    --color-limed-spruce-600: #376e83;
+    --color-limed-spruce-700: #325b6c;
+    --color-limed-spruce-800: #2e4a57;
+    --color-limed-spruce-900: #2b414e;
+    --color-limed-spruce-950: #192a33;
+}
+
+@theme{
+    --color-casal-50: #f2f9f9;
+    --color-casal-100: #deedef;
+    --color-casal-200: #c1dbe0;
+    --color-casal-300: #96c1ca;
+    --color-casal-400: #639fad;
+    --color-casal-500: #488392;
+    --color-casal-600: #3e6d7c;
+    --color-casal-700: #3a5e6b;
+    --color-casal-800: #344c56;
+    --color-casal-900: #2f424a;
+    --color-casal-950: #1b2a31;
+}
