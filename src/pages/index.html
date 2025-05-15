@@ -12,13 +12,22 @@
 <body>
     
         <include src="components/nav_bar.html"></include>
-    
-        <div class="bg-blue-500 h-screen flex flex-col-reverse pl-25">
-            <div class="navbar-slogan">
-                <h2 class="text-6xl font-bold text-white"> Where debris meet it's final wave...</h2>
+        
+        <div class="relative h-screen w-screen overflow-hidden">
             
-                <p class="text-2xl text-white leading-30 ">Our goal is to accelarate getting rid of water pollution by utilizing dams and bioremediation.</p>
+            <div class="absolute top-0 left-0 w-full h-full z-1 bg-blue-950/50"></div>
+            <div class="relative flex flex-col-reverse pl-25 h-screen z-2">
+                <div class="navbar-slogan">
+                    <h1 class="text-6xl font-bold text-white">Where debris meets its final wave...</h1>
+
+                    <p class="text-2xl text-white leading-30">
+                        Our goal is to accelerate getting rid of water pollution by utilizing dams and bioremediation.
+                    </p>
+                </div>
             </div>
+            <video class="absolute top-0 left-0 w-full h-full object-cover" autoplay loop muted playsinline>
+                <source src="/src/assets/for_the_aqua.mp4" type="video/mp4">
+            </video>
         </div>
 
     <div class="bg-amber-700 h-160 flex flex-col justify-center px-25">
